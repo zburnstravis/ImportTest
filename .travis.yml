@@ -1,2 +1,2 @@
 version: ~> 1.0
-import: zburnstravis/testme:.travis.yml@main
+import: zburnstravis/testme:.travis.yml@master
