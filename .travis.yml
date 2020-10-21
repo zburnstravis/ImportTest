@@ -1,5 +1,7 @@
 version: ~> 1.0
-import: zburnstravis/testme:.travis.yml@master
+import: zburnstravis/testme:.travis.yml@mas
+env:
+  global:
     - TEST_DIR="$PWD"
     - TEST_SCRIPT=""
     - BUILD_DIR="$PWD"
