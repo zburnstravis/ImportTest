@@ -1,2 +1,7 @@
 version: ~> 1.0
 import: zburnstravis/testme:.travis.yml@master
+    - TEST_DIR="$PWD"
+    - TEST_SCRIPT=""
+    - BUILD_DIR="$PWD"
+    - REPO="quay.io/ibmz/openjdk"
+    - TAG="$REPO:11.0.8"
